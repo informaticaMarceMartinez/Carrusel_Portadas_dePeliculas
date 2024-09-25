@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel - Marcelo Martinez</title>
+    <link rel="stylesheet" href="carrusel.css">
+    <script src="carrusel.js"></script>
+</head>
+
+<body onload="iniciar()">
+    <h2>Portadas de Películas</h3>
+        
+    <div class="contenedor">
+
+        <div class="elemento fade">
+            <img id="img0" class="imagenes" src="imagenes/armageddon.png" alt="">
+            <h4 id="nom0" class="nombre">Armageddon</h4>
+            <p id="cont0" class="cont">1/8</p>
+        </div>
+        <div class="elemento fade">
+            <img id="img1" class="imagenes" src="imagenes/matrix.png" alt="">
+            <h4 id="nom1" class="nombre">The Matrix</h4>
+            <p id="cont1" class="cont">2/8</p>
+        </div>
+        <div class="elemento fade">
+            <img id="img2" class="imagenes" src="imagenes/cazafantasmas.png" alt="">
+            <h4 id="nom2" class="nombre">Los Cazafantasmas</h4>
+            <p id="cont2" class="cont">3/8</p>
+        </div>
+        <div class="elemento fade">
+            <img id="img3" class="imagenes" src="imagenes/depredador.png" alt="">
+            <h4 id="nom3" class="nombre">Depredador</h4>
+            <p id="cont3" class="cont">4/8</p>
+        </div>
+        <div class="elemento fade">
+            <img id="img4" class="imagenes" src="imagenes/killbill.png" alt="">
+            <h4 id="nom4" class="nombre">Kill Bill</h4>
+            <p id="cont4" class="cont">5/8</p>
+        </div>
+        <div class="elemento fade">
+            <img id="img5" class="imagenes" src="imagenes/matrixReload.png" alt="">
+            <h4 id="nom5" class="nombre">Matrix Reload</h4>
+            <p id="cont5" class="cont">6/8</p>
+        </div>
+        <div class="elemento fade">
+            <img id="img6" class="imagenes" src="imagenes/topGun.png" alt="">
+            <h4 id="nom6" class="nombre">Top Gun</h4>
+            <p id="cont6" class="cont">7/8</p>
+        </div>
+        <div class="elemento fade">
+            <img id="img7" class="imagenes" src="imagenes/volverFuturo.png" alt="">
+            <h4 id="nom7" class="nombre">Volver al Futuro</h4>
+            <p id="cont7" class="cont">8/8</p>
+        </div>
+    </div>
+
+    <!-- 
+    <button class="anterior" onclick="moverElemento(-1)"><a>&#10094;</a></button>
+    <button class="siguiente" onclick="moverElemento(1)"><a>&#10095;</a></button>  
+-->
+    <button class="anterior" onclick="moverElemento(-1)">&#10094;</button>
+    <button class="siguiente" onclick="moverElemento(1)">&#10095;</button>  
+
+
+</body>
+</html>
