@@ -49,3 +49,13 @@ Soy un desarrollador comprometido con la creación de soluciones eficientes y f�
 [Descargar CV en PDF](https://sites.google.com/view/cvmarcelomartinez/descarga-mi-cv-en-pdf)
 
 Estoy abierto a nuevas oportunidades y colaboraciones. No dude en contactarme para discutir posibles proyectos o posiciones.
+---------------------------------------------------------------------------------------------------------------------------
+
+## Licencia
+
+Este proyecto está licenciado bajo la GNU General Public License v3.0 (GPL-3.0).
+
+Esto significa que puedes usar, modificar y distribuir este software libremente, siempre y cuando cualquier trabajo derivado se distribuya bajo los mismos términos de licencia y preserve mi información de autoría.
+
+Para más detalles, consulta el archivo [LICENSE](LICENSE) en este repositorio o visita [https://www.gnu.org/licenses/gpl-3.0.html](https://www.gnu.org/licenses/gpl-3.0.html).
+
